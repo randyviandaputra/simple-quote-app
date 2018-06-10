@@ -1,6 +1,6 @@
-# vue-cli
+# Simple Quote App
 
-> A Vue.js project
+> Simple Quote App With Vue
 
 ## Build Setup
 
