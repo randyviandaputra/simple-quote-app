@@ -1,0 +1,28 @@
+<template>
+    <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-body quote">
+                <slot></slot>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+</script>
+
+<style>
+    .panel-body {
+        font-size: 24px;
+        font-style: italic;
+        color: #6e6e6e;
+    }
+
+    .quote {
+        cursor: pointer;
+    }
+
+    .quote:hover {
+        background-color: #ffe2e2;
+    }
+</style>
